@@ -8,10 +8,10 @@ Jak się później okazało był to zły wybór 😂 required i wartości domyś
 
 backend - NestJS
 
-Poniżej przedstawiam funkcje jakie aktualnie posiada:
+Poniżej przedstawiam funkcje jakie aktualnie posiada:<br/><br/>
 
-rejestracja użytkownika (hasło szyfrowane - bcrypt, jwt)
-dodawanie firm (jeden użytkownik może mieć kilka firm)
-tworzenie faktur, wyświetlanie wszystkich
-zmiana statusu faktur (wystawiona, wysłana, zapłacona)
-automatyczny status "Faktura Przeterminowana" jeżeli minął termin płatności, a nadal nie ma statusu "zapłacona"
+-rejestracja użytkownika (hasło szyfrowane - bcrypt, jwt)<br/>
+-dodawanie firm (jeden użytkownik może mieć kilka firm)<br/>
+-tworzenie faktur, wyświetlanie wszystkich<br/>
+-zmiana statusu faktur (wystawiona, wysłana, zapłacona)<br/>
+-automatyczny status "Faktura Przeterminowana" jeżeli minął termin płatności, a nadal nie ma statusu "zapłacona"<br/>
