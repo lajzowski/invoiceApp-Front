@@ -1,0 +1,14 @@
+.form-login {
+    margin: auto;
+    width: 80%;
+    padding: 25px;
+    display: block;
+}
+
+.form-item {
+    width: 30%;
+}
+
+.form-input {
+    width: 60%;
+}
