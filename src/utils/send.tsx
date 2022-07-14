@@ -1,6 +1,8 @@
+import {Config} from "../config";
+
 export const send = async (url: string, method: string, token: string, data?: any): Promise<any> => {
 
-    const result = await fetch(`http://localhost:3001/${url}`, {
+    const result = await fetch(`${Config.apiHost}/${url}`, {
         headers: {
             Accept: 'application/json',
             'Content-Type': 'application/json',

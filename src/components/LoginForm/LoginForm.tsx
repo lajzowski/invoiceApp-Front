@@ -7,6 +7,7 @@ import { message, Space } from 'antd';
 
 import './LoginForm.css';
 import Cookies from "universal-cookie";
+import {Config} from "../../config";
 
 interface Props {
     changeLoggedIn: (value: boolean) => void,
@@ -21,7 +22,7 @@ export const LoginForm = (props: Props) => {
 
 
     const sendForm = async (obj: any) => {
-        const result = await fetch('http://localhost:3001/auth/login', {
+        const result = await fetch(`${Config.apiHost}/auth/login`, {
             headers: {
                 Accept: 'application/json',
                 'Content-Type': 'application/json',
